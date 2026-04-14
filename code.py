@@ -199,5 +199,17 @@ class HrEmployee(models.Model):
                 self.name, start_of_last_month, end_of_last_month, self.last_month_kpi
             )
         else:
+
+
+
+
+            hi hellooooo
+
+
+
+
+            ddd
+
+            
             self.last_month_kpi = 0.0
             _logger.info("No KPI records found for Last Month for %s", self.name)
